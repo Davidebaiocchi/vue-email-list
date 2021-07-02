@@ -13,10 +13,14 @@
 </head>
 <body>
     
-    <div v-if="arrayMail.length == 10" id="app">
-        {{ arrayMail }}
+    <div v-if="arrayMail.length == 10" id="app">        
+        <ul>
+            <li v-for="mail in arrayMail" :key=" mail">
+                {{ mail }}
+            </li>
+        </ul>
     </div>
-
+        
     <script src="script.js"></script>
 </body>
 </html>
