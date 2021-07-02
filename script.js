@@ -7,7 +7,7 @@
 const app = new Vue({
     el:'#app',
     data: {
-        arrayMail: []
+        arrayMail: [] 
     },
     mounted() {
         for(i = 0; i < 10; i++) {
