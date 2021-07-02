@@ -4,6 +4,8 @@
     border: 0;
 }
 
-#app {
-    width: 100px;
+div{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
 }
